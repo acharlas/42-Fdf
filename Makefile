@@ -1,6 +1,10 @@
 NAME = Fdf
 
-SRC = src/main.c
+SRC = src/main.c \
+	  src/createMap.c \
+	  src/initScene.c \
+	  src/matrix.c \
+	  src/drawLine.c
 
 CC = clang
 
